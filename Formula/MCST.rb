@@ -13,7 +13,7 @@ class Mcst < Formula
   on_macos do
     on_intel do
       url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Darwin_x86_64.tar.gz"
-      sha256 "08e0b9d605bf10eb5f3969a9f22f34533d6c710d530561cfb17875e4c1115cd7"
+      sha256 "533adcb2512a53fe5683c4e25905a530df4c9110782d0e593b82121b37ac4321"
 
       def install
         bin.install "MCST"
@@ -25,7 +25,7 @@ class Mcst < Formula
     end
     on_arm do
       url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Darwin_arm64.tar.gz"
-      sha256 "99544b99d0facd3b745452c38ac821fc7aaf197fa9ad5b4a65f2e8f249911b07"
+      sha256 "a5aa7a83e8d26866acd96f2a6288af14250ec386a7531bf0e20b549a8c7b3729"
 
       def install
         bin.install "MCST"
@@ -41,7 +41,7 @@ class Mcst < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Linux_x86_64.tar.gz"
-        sha256 "84e48e03ddaaf4e2cac0af345862d4b7bfb7a11ce9a25954f1c763c776865f0e"
+        sha256 "2071468cc2b770f1dad447457887ff1890776bc5423400f22d24cf0f64472f7f"
 
         def install
           bin.install "MCST"
@@ -55,7 +55,7 @@ class Mcst < Formula
     on_arm do
       if !Hardware::CPU.is_64_bit?
         url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Linux_armv7.tar.gz"
-        sha256 "eeb852008eb6503bb7a00c6e6e68a5329fe34b0a29e2541f5556487af24af942"
+        sha256 "24a8fdd2a82145c1a7cde472fb57096cc9deea848bf4f69f7033bea0fec624e2"
 
         def install
           bin.install "MCST"
@@ -69,7 +69,7 @@ class Mcst < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Linux_arm64.tar.gz"
-        sha256 "bfbede8f1ee69c63a5c35a3b38fe3132c1ebb7cdd46abf3da3f6e46389e635b3"
+        sha256 "c1bb1d79977aa4cf07339270ea0f321fac6b49595e03d1efde882b6e3638e0db"
 
         def install
           bin.install "MCST"
