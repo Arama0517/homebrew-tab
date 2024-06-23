@@ -5,15 +5,15 @@
 class Mcst < Formula
   desc "A command-line utility making Minecraft server creation quick and easy for beginners."
   homepage "https://github.com/Arama0517/MCServerTool"
-  version "1.2.0"
+  version "1.3.0"
   license "GPL-v3"
 
   depends_on "aria2"
 
   on_macos do
     on_intel do
-      url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Darwin_x86_64.tar.gz"
-      sha256 "533adcb2512a53fe5683c4e25905a530df4c9110782d0e593b82121b37ac4321"
+      url "https://github.com/Arama0517/MCST/releases/download/v1.3.0/MCST_Darwin_x86_64.tar.gz"
+      sha256 "0ca6a353f69aeb6c21beed931d2caa471610399c5a5ed7217e91dd5b76dfdb8c"
 
       def install
         bin.install "MCST"
@@ -24,8 +24,8 @@ class Mcst < Formula
       end
     end
     on_arm do
-      url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Darwin_arm64.tar.gz"
-      sha256 "a5aa7a83e8d26866acd96f2a6288af14250ec386a7531bf0e20b549a8c7b3729"
+      url "https://github.com/Arama0517/MCST/releases/download/v1.3.0/MCST_Darwin_arm64.tar.gz"
+      sha256 "d42b6302c4e535ce27d06c7ac540a23b8a08031c786bf859b8f6f3db56954bd8"
 
       def install
         bin.install "MCST"
@@ -40,8 +40,8 @@ class Mcst < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Linux_x86_64.tar.gz"
-        sha256 "2071468cc2b770f1dad447457887ff1890776bc5423400f22d24cf0f64472f7f"
+        url "https://github.com/Arama0517/MCST/releases/download/v1.3.0/MCST_Linux_x86_64.tar.gz"
+        sha256 "003807adb3cb5f0b003c5e7d9e469cd96c25848cc531c1fd331f14629cf568f4"
 
         def install
           bin.install "MCST"
@@ -54,8 +54,8 @@ class Mcst < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Linux_armv7.tar.gz"
-        sha256 "24a8fdd2a82145c1a7cde472fb57096cc9deea848bf4f69f7033bea0fec624e2"
+        url "https://github.com/Arama0517/MCST/releases/download/v1.3.0/MCST_Linux_armv7.tar.gz"
+        sha256 "51328b3bc22d48afff603e36591e0fefe93011474a928f62d54788d4feba09e6"
 
         def install
           bin.install "MCST"
@@ -68,8 +68,8 @@ class Mcst < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Arama0517/MCST/releases/download/v1.2.0/MCST_Linux_arm64.tar.gz"
-        sha256 "c1bb1d79977aa4cf07339270ea0f321fac6b49595e03d1efde882b6e3638e0db"
+        url "https://github.com/Arama0517/MCST/releases/download/v1.3.0/MCST_Linux_arm64.tar.gz"
+        sha256 "2fb0fb75deb10924fe3ac45613848eaccfacaceaa9d826fd0bce2b57f703c6c0"
 
         def install
           bin.install "MCST"
